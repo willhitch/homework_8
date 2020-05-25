@@ -78,7 +78,7 @@ function init() {
       `## Installation \n ${data.installation} \n`
     );
     fs.appendFileSync("README.md", `## Usage \n ${data.usage} \n`);
-    fs.appendFileSync("README.md", `### Liscense: ${data.license} \n`);
+    fs.appendFileSync("README.md", `## License: ${data.license} \n`);
     fs.appendFileSync(
       "README.md",
       `## Contributors \n ${data.contributors} \n`
